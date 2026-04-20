@@ -13,6 +13,14 @@ Rules:
 - Read the `references/` folder as necessary. It is the place for references the user provides that may be useful for design work.
 - Treat `references/current/` as references for the current design, product, project, or existing state.
 - Treat `references/ideas/` as references for external inspiration, internet examples, mood, interaction ideas, or visual directions the user likes.
+- Use web research when the task needs fresh design inspiration, real product patterns, competitor examples, or references the user did not provide.
+- Use targeted browsing with web access or Chrome DevTools. Search by product type, screen type, audience, platform, and visual direction instead of browsing broadly.
+- Prefer practical reference sources for the right job: Mobbin for real app flows and product UX patterns, Figma Community/templates for reusable layouts and UI structures, Dribbble for polished visual direction, Awwwards or SiteInspire for expressive web and landing page inspiration, and real competitor sites for practical structure, messaging, and conversion patterns.
+- Keep research concise. Gather enough references to make better design decisions, then design.
+- Do not copy references directly. Extract patterns such as layout, hierarchy, density, spacing, interaction behavior, state changes, visual tone, and conversion strategy.
+- Save useful screenshots, downloads, or captured references in `references/ideas/` when they are likely to help future work.
+- When research influences a design, briefly mention the useful reference patterns in the response or `PURPOSE` block when relevant.
+- When analyzing video references, use `ffmpeg` to break the video into frames when that helps inspect motion, state changes, layout, or visual details.
 - Use the `assets/` folder for the actual PNG and SVG files used and maintained in hi-fi designs.
 - For hi-fi designs, prefer real SVGs and PNGs when they are available instead of rough placeholder shapes, especially for logos, icons, product imagery, and brand marks.
 - Check `assets/` first before adding new visual assets.

@@ -1,3 +1,10 @@
+/**
+ * PURPOSE
+ * Goal: Make one live channel feel clickable, scannable, and alive in a dense sidebar.
+ * Real usage: Appears in a polished discovery rail where users compare channels by name, category, and live status.
+ * Focus: Hover feedback, visual emphasis, and fast recognition of stream identity.
+ * Target users: Active stream browsers choosing which live channel to join.
+ */
 export type LiveChannelItemHifiProps = {
   channelName?: string
   category?: string

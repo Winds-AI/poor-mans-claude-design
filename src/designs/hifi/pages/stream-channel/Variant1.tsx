@@ -1,5 +1,12 @@
 import LiveChannelItemHifi from '../../components/live-channel-item/Variant1'
 
+/**
+ * PURPOSE
+ * Goal: Help viewers watch a stream, understand the channel, and take key actions without friction.
+ * Real usage: A real channel page where users watch video, follow, subscribe, browse related streams, and chat live.
+ * Focus: Strong priority on the player, immediate channel context, monetization actions, and chat participation.
+ * Target users: Engaged livestream viewers, subscribers, and community participants.
+ */
 const sidebarChannels = [
   { channelName: 'ESLCS', category: 'Counter-Strike', viewers: '1.3K' },
   { channelName: 'PGL', category: 'Counter-Strike', viewers: '892' },

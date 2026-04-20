@@ -1,8 +1,11 @@
 import LiveChannelItemWireframe from '../../components/live-channel-item/Variant1'
 
 /**
- * Wireframe: holy-grail stream layout inspired by a typical live channel page
- * (top bar · live list · player · stream meta · chat · bottom promo).
+ * PURPOSE
+ * Goal: Show the full structure of a live stream channel page and its main priorities.
+ * Real usage: Used by viewers watching a stream while browsing related channels, chat, and actions.
+ * Focus: Layout hierarchy between video, stream metadata, discovery sidebar, and chat.
+ * Target users: Regular livestream viewers who multitask between watching, chatting, and exploring.
  */
 export default function StreamChannelWireframePage() {
   return (

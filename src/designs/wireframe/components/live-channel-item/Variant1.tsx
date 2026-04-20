@@ -1,5 +1,9 @@
 /**
- * Wireframe: one row from a “Live channels” sidebar (avatar, title lines, live viewer count).
+ * PURPOSE
+ * Goal: Help viewers quickly scan one live channel inside a larger sidebar list.
+ * Real usage: Repeated inside a live channels rail where users compare multiple streams fast.
+ * Focus: Information hierarchy, row density, and what makes one stream selectable.
+ * Target users: People browsing live streams and deciding what to open next.
  */
 export default function LiveChannelItemWireframe() {
   return (

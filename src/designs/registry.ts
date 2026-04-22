@@ -1,6 +1,5 @@
 import type { RegistryEntry } from '../types'
 import LiveChannelItemHifi from './hifi/components/live-channel-item/Variant1'
-import MeetingPrepHifiV1 from './hifi/pages/meeting-prep/Variant1'
 import StreamChannelHifiPage from './hifi/pages/stream-channel/Variant1'
 import LiveChannelItemWireframe from './wireframe/components/live-channel-item/Variant1'
 import StreamChannelWireframePage from './wireframe/pages/stream-channel/Variant1'
@@ -45,16 +44,6 @@ export const registry: RegistryEntry[] = [
     description:
       'Dark stream UI: nav, live list, player bar, meta and actions, chat, signup banner.',
     component: StreamChannelHifiPage,
-  },
-  {
-    mode: 'hifi',
-    kind: 'page',
-    slug: 'meeting-prep',
-    variant: 'variant1',
-    title: 'Meeting preparation — Café de Jaren (hi-fi · page)',
-    description:
-      'Sales Coach meeting prep: header, tabs, 2×2 card grid, AI Insights sidebar. Shared copy in content.ts.',
-    component: MeetingPrepHifiV1,
   },
 ]
 

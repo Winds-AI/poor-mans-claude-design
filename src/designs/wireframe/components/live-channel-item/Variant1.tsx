@@ -1,9 +1,10 @@
 /**
  * PURPOSE
  * Goal: Help viewers quickly scan one live channel inside a larger sidebar list.
- * Real usage: Repeated inside a live channels rail where users compare multiple streams fast.
- * Focus: Information hierarchy, row density, and what makes one stream selectable.
- * Target users: People browsing live streams and deciding what to open next.
+ * Primary audience: People browsing live streams and deciding what to open next.
+ * Context: Repeated inside a live channels rail where people compare streams fast.
+ * Core actions: Recognize channel identity, category, live status, and viewer count.
+ * Priority: Dense scannability over detail.
  */
 export default function LiveChannelItemWireframe() {
   return (

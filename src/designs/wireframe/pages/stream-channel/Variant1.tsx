@@ -3,9 +3,10 @@ import LiveChannelItemWireframe from '../../components/live-channel-item/Variant
 /**
  * PURPOSE
  * Goal: Show the full structure of a live stream channel page and its main priorities.
- * Real usage: Used by viewers watching a stream while browsing related channels, chat, and actions.
- * Focus: Layout hierarchy between video, stream metadata, discovery sidebar, and chat.
- * Target users: Regular livestream viewers who multitask between watching, chatting, and exploring.
+ * Primary audience: Regular livestream viewers who multitask between watching, chatting, and exploring.
+ * Context: Used while watching a stream, browsing related channels, reading chat, and considering actions.
+ * Core actions: Watch, scan stream metadata, browse related channels, and use chat.
+ * Priority: Layout hierarchy between video, metadata, discovery sidebar, and chat.
  */
 export default function StreamChannelWireframePage() {
   return (

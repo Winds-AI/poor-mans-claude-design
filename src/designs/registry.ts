@@ -9,7 +9,7 @@ export const registry: RegistryEntry[] = [
     mode: 'wireframe',
     kind: 'component',
     slug: 'live-channel-item',
-    variant: 'variant1',
+    variant: 1,
     title: 'Live channel row (wireframe · component)',
     description:
       'Sidebar row: avatar, two text lines (channel + category), live dot and viewer count.',
@@ -19,7 +19,7 @@ export const registry: RegistryEntry[] = [
     mode: 'wireframe',
     kind: 'page',
     slug: 'stream-channel',
-    variant: 'variant1',
+    variant: 1,
     title: 'Stream channel layout (wireframe · page)',
     description:
       'Holy-grail stream view: nav, live list, video, stream actions, chat, bottom promo.',
@@ -29,7 +29,7 @@ export const registry: RegistryEntry[] = [
     mode: 'hifi',
     kind: 'component',
     slug: 'live-channel-item',
-    variant: 'variant1',
+    variant: 1,
     title: 'Live channel row (hi-fi · component)',
     description:
       'Interactive sidebar row: gradient avatar, channel and game, live pulse and viewers.',
@@ -39,7 +39,7 @@ export const registry: RegistryEntry[] = [
     mode: 'hifi',
     kind: 'page',
     slug: 'stream-channel',
-    variant: 'variant1',
+    variant: 1,
     title: 'Stream channel layout (hi-fi · page)',
     description:
       'Dark stream UI: nav, live list, player bar, meta and actions, chat, signup banner.',
@@ -53,11 +53,17 @@ export function findRegistryEntry(
   slug: string | undefined,
   variant: string | undefined,
 ) {
+  const parsedVariant = Number(variant)
+
+  if (!Number.isInteger(parsedVariant)) {
+    return undefined
+  }
+
   return registry.find(
     (entry) =>
       entry.mode === mode &&
       entry.kind === kind &&
       entry.slug === slug &&
-      entry.variant === variant,
+      entry.variant === parsedVariant,
   )
 }

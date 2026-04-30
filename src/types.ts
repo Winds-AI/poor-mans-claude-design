@@ -8,7 +8,7 @@ export type RegistryEntry = {
   mode: Mode
   kind: Kind
   slug: string
-  variant: string
+  variant: number
   title: string
   description: string
   component: ComponentType
